@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Statistic Sheet", menuName = "Player Statistics/Attack")]
 public class AttackStat : ScriptableObject
 {
-    public Animation Attack; 
+    public Animation Attack;
+
     public int ComboLevel;
 }

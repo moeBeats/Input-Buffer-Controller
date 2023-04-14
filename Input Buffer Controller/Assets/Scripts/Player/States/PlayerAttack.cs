@@ -14,7 +14,7 @@ public class PlayerAttack : State
     public override void Enter()
     {
         base.Enter();
-        Debug.Log(_stat.name);
+        //Debug.Log(_stat.name);
     }
     public override void Update()
     {
